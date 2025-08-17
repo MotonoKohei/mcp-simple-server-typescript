@@ -1,6 +1,6 @@
 {
   "name": "mcp-simple-server-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple MCP server with echo, concat-abc, now, and nonce tools",
   "type": "module",
   "main": "build/index.js",
