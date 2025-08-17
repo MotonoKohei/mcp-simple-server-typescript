@@ -120,7 +120,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
 
       case "nonce": {
-        const length = args?.length || 16;
+        const length = (args?.length as number) || 16;
         const nonce = randomBytes(length).toString("hex");
         return {
           content: [
